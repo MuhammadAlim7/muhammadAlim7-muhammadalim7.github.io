@@ -38,7 +38,7 @@ export const DragCloseNavbar = ({ highLightsLink }) => {
       {
         x: [xStart, width],
       },
-      { type: "spring", damping: 14, stiffness: 100 },
+      { type: "spring", damping: 28, stiffness: 100 },
     );
     setIsOpen(false);
   };

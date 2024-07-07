@@ -216,7 +216,7 @@ const Drawer = ({
               style={{ y, height: "75vh", bottom: "0", padding: "1rem" }}
               transition={{
                 type: "spring",
-                damping: 14,
+                damping: 28,
                 stiffness: 100,
               }}
               onDragEnd={handleDragEnd}
