@@ -44,7 +44,6 @@ export default function Footer() {
           <p>
             Lim Copyright © {new Date().getFullYear()} - All right reserved.
           </p>{" "}
-          <p>Log : bit buggy on animations</p>
         </div>
       </div>
     </footer>
