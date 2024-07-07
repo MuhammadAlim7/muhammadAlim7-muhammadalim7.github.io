@@ -38,7 +38,7 @@ export const DragCloseNavbar = ({ highLightsLink }) => {
       {
         x: [xStart, width],
       },
-      { duration: 0.8, delay: 0.5, ease: [0, 0.71, 0.2, 1.01] },
+      { duration: 0.8, ease: [0, 0.71, 0.2, 1.01] },
     );
     setIsOpen(false);
   };
@@ -298,7 +298,6 @@ const Drawer = ({
               }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
               drag="x"
