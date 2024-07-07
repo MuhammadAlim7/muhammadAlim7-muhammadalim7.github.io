@@ -12,18 +12,18 @@ export default function Footer() {
             </p>
             <div className="my-4 flex  gap-4">
               <a
-                href="https://vitejs.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SiVite className="size-6  " />
-              </a>
-              <a
                 href="https://react.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SiReact className="size-6 animate-[spin_2s_ease-out_infinite]" />
+              </a>
+              <a
+                href="https://vitejs.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiVite className="size-6  " />
               </a>
               <a
                 href="https://www.framer.com/motion/"
@@ -43,7 +43,8 @@ export default function Footer() {
           </nav>{" "}
           <p>
             Lim Copyright © {new Date().getFullYear()} - All right reserved.
-          </p>
+          </p>{" "}
+          <p>Log : bit buggy on animations</p>
         </div>
       </div>
     </footer>

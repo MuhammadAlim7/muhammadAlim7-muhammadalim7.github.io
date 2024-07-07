@@ -215,9 +215,9 @@ const Drawer = ({
               animate={{ y: "0%", height: "75vh" }}
               style={{ y, height: "75vh", bottom: "0", padding: "1rem" }}
               transition={{
-                type: "spring",
-                damping: 28,
-                stiffness: 100,
+                duration: 0.8,
+                delay: 0.5,
+                ease: [0, 0.71, 0.2, 1.01],
               }}
               onDragEnd={handleDragEnd}
               drag="y"
