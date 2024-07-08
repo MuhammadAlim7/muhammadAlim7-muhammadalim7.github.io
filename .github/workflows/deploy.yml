@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+#Allow repo secrets
+env:
+  VITE_FORM_API_KEY: ${{ secrets.VVITE_FORM_API_KEY }}
+
 jobs:
   build:
     name: Build

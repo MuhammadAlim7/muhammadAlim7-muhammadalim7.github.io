@@ -216,7 +216,7 @@ const Drawer = ({
               style={{ y, height: "75vh", bottom: "0", padding: "1rem" }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
+                delay: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
               onDragEnd={handleDragEnd}
