@@ -7,7 +7,7 @@ on:
 
 #Allow repo secrets
 env:
-  VITE_FORM_API_KEY: ${{ secrets.VVITE_FORM_API_KEY }}
+  VITE_FORM_API_KEY: ${{ secrets.VITE_FORM_API_KEY }}
 
 jobs:
   build:
