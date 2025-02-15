@@ -1,7 +1,7 @@
 import React, { useEffect, useCallback } from "react";
 import { configs } from "./config/particleConfigs";
 import { useTheme } from "./ThemeContext";
-import { loadSlim } from "https://cdn.jsdelivr.net/npm/@tsparticles/slim@3.1.0/+esm";
+import { loadSlim } from "https://cdn.jsdelivr.net/npm/@tsparticles/slim@3.8.1/+esm";
 export default function Background() {
   const { particlesConfigs } = configs();
   const { theme } = useTheme();
